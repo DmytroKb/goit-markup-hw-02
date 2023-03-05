@@ -33,6 +33,9 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.nav-item-link:is(:hover, :focus) {
+  color: #404bbf;
+}
 .address-item {
   font-weight: 400;
   font-style: normal;
@@ -40,6 +43,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.address-item:is(:hover, :focus) {
+  color: #404bbf;
 }
 /* -----------------------------------------------------------------Main------------------- */
 /* ------------------------Section 1------------------ */
@@ -52,6 +58,18 @@ body {
   color: #ffffff;
 }
 .first-section-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.first-section-btn:is(:hover, :focus) {
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -120,6 +138,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 }
 .portfolio-title {
   font-size: 20px;
