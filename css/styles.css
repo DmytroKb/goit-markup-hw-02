@@ -43,6 +43,9 @@ body {
 .nav-item-link:is(:hover, :focus) {
   color: #404bbf;
 }
+.address {
+  font-style: normal;
+}
 .address-item {
   font-weight: 400;
   font-style: normal;
@@ -123,6 +126,7 @@ body {
   text-transform: capitalize;
 }
 .forth-section-item {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
