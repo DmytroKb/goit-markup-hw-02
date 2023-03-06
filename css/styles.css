@@ -59,13 +59,16 @@ body {
 }
 /* -----------------------------------------------------------------Main------------------- */
 /* ------------------------Section 1------------------ */
+.first-section {
+  background-color: #2e2f42;
+}
 .first-section-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  background-color: #2e2f42;
+  color: #ffffff;
 }
 .first-section-btn {
   font-family: inherit;
